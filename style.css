@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Pacifico&family=Permanent+Marker&display=swap');
 
 * {
     margin: 0;
@@ -65,20 +65,23 @@ header  {
     padding-top: 70px;
     color: #d39200;
     text-shadow: 1px 1px 2px #333;
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Permanent Marker', 'Sans-serif'
 }
 
 .slider-item p {
     width: auto;
-    margin: 60px 100px;
+    margin: 60px 150px;
     padding: 10px;
     text-align: center;
     display: flex;
     color: #f9e8a3;
     text-shadow: 1px 1px 3px #666;
     font-size: 1rem;
-    font-family: 'Pacifico', 'Sans-serif'
+    font-family: 'Original Surfer', 'Sans-serif';
+    border-radius: 5px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
 }
 
 .slider-controls {
@@ -98,4 +101,40 @@ header  {
     width: 45px;
     height: 45px;
     padding: 5px;
+}
+
+/* RODAPÉ */
+
+footer {
+    width: auto;
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-texto {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.footer-texto a {
+    color: #7ac9e9;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.footer-texto a:hover {
+    color: #0a4d99;
+    text-decoration: none;
 }
